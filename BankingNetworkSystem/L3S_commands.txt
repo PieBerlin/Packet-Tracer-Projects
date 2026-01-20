@@ -1,0 +1,24 @@
+en
+conf t
+hostname F4-L3-SW
+banner motd #This is F4-L3-SW#
+line console 0
+password cisco
+login
+exit
+no ip domain-lookup
+enable password cisco
+service password-encryption
+ip domain-name cisco.net
+username cisco password cisco
+crypto key generate rsa
+1024
+line vty 0 15
+login local
+transport input ssh
+exit
+do wr
+
+
+
+

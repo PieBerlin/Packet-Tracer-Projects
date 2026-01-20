@@ -1,0 +1,12 @@
+################ CONFIG STEPS############
+1.Basic settings to all devices plus ssh on the routers and l3 switches
+
+2.VLAN assignment plus all access-and trunk ports
+3.Switchport security to all l2 switches
+4.Subnetting and Ip addressing
+5.OSPF on routers and l3 switches
+6.static IP address to serverRoom devices
+7.DHCP server device configuration
+8.Inter-VLAN routing on L3 switches plus ip dhcp helper addresses
+9.Wireless network configuration
+10.verifying and testin configurations

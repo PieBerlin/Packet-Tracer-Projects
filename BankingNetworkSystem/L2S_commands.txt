@@ -1,0 +1,18 @@
+en
+conf t
+hostname Floor-4-SVR-SW
+banner motd #This is Floor-4-SVR-SW #
+line console 0
+password cisco
+login
+exit
+line vty 0 15
+password  cisco
+login
+exit
+no ip domain-lookup
+enable password cisco
+service password-encryption
+do wr
+
+

@@ -1,0 +1,24 @@
+en
+conf t
+hostname F4-ROUTER
+banner motd #This is F4-ROUTER#
+line console 0
+password cisco
+login
+exit
+no ip domain-lookup
+enable password cisco
+service password-encryption
+ip domain-name cisco.net
+username cisco password cisco
+crypto key generate rsa
+1024
+line vty 0 15
+login local
+transport input ssh
+exit
+do wr
+
+
+
+
