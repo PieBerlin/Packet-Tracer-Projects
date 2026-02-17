@@ -1,0 +1,19 @@
+First Floor
+Management  netAdd : 192.168.10.0 subnet: 255.255.255.192/26 range: 192.168.10.1 to 192.168.10.62  broadcast: 192.163.10.63
+Research netAdd : 192.168.10.64 subnet: 255.255.255.192/26 range: 192.168.10.65 to 192.168.10.126  broadcast: 192.163.10.127
+Human Res netAdd : 192.168.10.128 subnet: 255.255.255.192/26 range: 192.168.10.129 to 192.168.10.190  broadcast: 192.163.10.191
+
+Second Floor
+Marketing netAdd : 192.168.10.192 subnet: 255.255.255.192/26 range: 192.168.10.193 to 192.168.10.254  broadcast: 192.163.10.255
+Accounts netAdd : 192.168.11.0 subnet: 255.255.255.192/26 range: 192.168.11.1 to 192.168.11.62  broadcast: 192.163.11.63
+Finance netAdd : 192.168.11.64 subnet: 255.255.255.192/26 range: 192.168.11.65 to 192.168.10.126  broadcast: 192.163.11.127
+
+Third Floor
+Logistics netAdd : 192.168.11.128 subnet: 255.255.255.192/26 range: 192.168.11.129 to 192.168.11.190  broadcast: 192.163.10.191
+Customer netAdd : 192.168.11.192 subnet: 255.255.255.192/26 range: 192.168.11.193 to 192.168.11.254  broadcast: 192.163.10.255
+Guest netAdd : 192.168.12.0 subnet: 255.255.255.192/26 range: 192.168.12.1 to 192.168.12.62  broadcast: 192.163.12.63
+
+Fourth Floor 
+Admin netAdd : 192.168.12.64 subnet: 255.255.255.192/26 range: 192.168.12.65 to 192.168.12.126  broadcast: 192.163.12.127
+ICT netAdd : 192.168.12.128 subnet: 255.255.255.192/26 range: 192.168.12.128 to 192.168.12.190  broadcast: 192.163.12.191
+ServerRoom netAdd : 192.168.12.192 subnet: 255.255.255.192/26 range: 192.168.12.193 to 192.168.12.254  broadcast: 192.163.12.255
